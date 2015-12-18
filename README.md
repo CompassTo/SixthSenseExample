@@ -65,7 +65,7 @@ compile files('libs/qdiscoverysdk_0.9.3.jar')
 compile 'com.google.code.gson:gson:2.5.0'
 ```
 
-4.  Configure your API-Key:
+Set your IDs and keys:
 
 ```java
 LtedPublicManagedConfigModel config = new LtedPublicManagedConfigModel(
