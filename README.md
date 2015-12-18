@@ -27,8 +27,11 @@ It provides Public Managed Subscribe and Publish Tasks that use Qualcomm’s ENS
 ## Code Example
 
 ```java
-LtedConfig config = new LtedConfig(getApplicationContext(),
-ApplicationConfig.LTED_APP_ID);
+LtedConfig config = new LtedConfig(
+   getApplicationContext(),
+   "APP-ID"
+   "ENS-PROJECT",
+   "API-KEY");
 
 List<LtedMatchKey> keys = new ArrayList<LtedMatchKey>();
 List<String> musicLabels = new ArrayList();
