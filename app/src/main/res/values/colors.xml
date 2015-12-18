@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Copyright (c) 2013 Qualcomm Technologies, Inc. 
+   All Rights Reserved. 
+   Qualcomm Technologies, Inc. Confidential and Proprietary. 
+-->
+<resources>
+
+    <color name="transparent">#00000000</color>
+    <color name="black_transparent">#80000000</color>
+    <color name="turquoise">#0EC7C7</color>
+    <color name="light_grey">#C7C7C7</color>
+    <color name="white">#FFFF</color>
+    <color name="dark_grey">#5C5858</color>
+    <color name="dark_grey_darker">#ff4a4646</color>
+    <color name="blue">#0b9bff</color>
+    <color name="blue_disabled">#800b9bff</color>
+    <color name="blue_darker">#ff097ece</color>
+
+	<color name="grey_button_background">#ffeeeeee</color>
+	<color name="grey_button_background_darker">#FFC5C5C5</color>
+
+	<color name="grey_button_text_color">#ffacacac</color>
+
+	<color name="default_background">#ffeeeeee</color>
+
+    <color name="listitem_background">#ff2d2d39</color>
+    <color name="listitem_background_selected">#ff444355</color>
+
+	<color name="listitem_main_text">#ffffffff</color>
+	<color name="listitem_secondary_text">#ff666573</color>
+	<color name="listitem_group_text">#ff666573</color>
+
+    <color name="tabbar_selected">#2d2d39</color>
+    <color name="tabbar_default">#444355</color>
+    <color name="main_background_dark">#2d2d39</color>
+
+    <color name="compass_green">#ff149988</color>
+    <color name="compass_green_darker">#ff0c6257</color>
+
+</resources>

@@ -1,0 +1,35 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "com.compassto.sixthsense.example"
+        minSdkVersion 19
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.1.0'
+    compile(name:'sixthsense_0.9.0', ext:'aar')
+
+    compile files('libs/qdiscoverysdk_0.9.3.jar')
+    compile 'com.google.code.gson:gson:2.5'
+}
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}

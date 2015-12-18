@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:id="@+id/containerView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/tab_strip"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/tabbar_default"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/tab_keys"
+            style="@style/TabbarItems"
+            android:text="KEYS"/>
+
+        <TextView
+            android:id="@+id/tab_people"
+            style="@style/TabbarItems"
+            android:text="MATCHES (0)"/>
+
+        <TextView
+            android:id="@+id/tab_log"
+            style="@style/TabbarItems"
+            android:text="LOG"/>
+
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/main_background_dark"
+        />
+
+    <Button
+        android:id="@+id/buttonLog"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="10dp"
+        android:text="LOG"/>
+
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
